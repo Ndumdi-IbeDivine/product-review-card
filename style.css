@@ -1,0 +1,55 @@
+
+.product-type {
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 5px;
+}
+
+.product-name {
+    font-family: 'Fraunces', Helvetica, sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.25rem;
+    color: hsl(212, 21%, 14%);
+}
+
+.product-description {
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: hsl(228, 12%, 48%);
+}
+
+.product-price-container {
+    /* display: flex; */
+}
+
+.amount {
+    font-family: 'Fraunces', Helvetica, sans-serif;
+    font-size: 1.75rem;
+    color: hsl(158, 36%, 37%);
+}
+
+.amount-two {
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    font-size: 0.875rem;
+    color: hsl(228, 12%, 48%);
+    padding-top: 5px;
+    text-decoration: line-through;
+}
+
+.btn {
+    width: 100%;
+    border-radius: 5px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(158, 36%, 37%);
+    font-size: 8px;
+    letter-spacing: 2px;
+    border: none;
+    outline: none;
+}
+
+.btn:hover {
+    background-color: hsl(216, 100%, 70%)
+}
